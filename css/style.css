@@ -21,8 +21,10 @@
 .yearList li::after {content:''; position:absolute; top:45px; bottom:0; left:75px; width:2px; background-color:#ffa99c;}
 .yearList li + li::before {height:40px;}
 .yearList li + li::after {top:65px;}
-
-.icoList li::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_tel.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
+.icoList li {line-height: 24px; padding-bottom: 10px;}
+.icoList li::before {content: ''; display: inline-block; width:40px; height:40px; overflow: hidden; background-image:url(../images/ico_tel.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
+.icoList li > div {display: inline-block; width: calc(100% - 112px); padding-left: 20px;}
+.icoList li strong {display: block;}
 @media (max-width:1000px) and (orientation: portrait){
     .personal, .resume {float:none; width:100%;}
 }
