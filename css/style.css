@@ -1,3 +1,7 @@
+body{
+    font-family: sans-serif;
+}
+
 .content, .content > * {box-sizing:border-box;}
 .content:after {display:block; content:''; clear: both;}
 .personal {float:left; width:40%; padding:40px; background-color:#f3f2f2;}
@@ -5,6 +9,15 @@
 
 .personal .photo {height:200px; text-align:center;}
 .personal .photo img {width:auto; height:100%;}
+
+.nameArea strong {
+    font-size: 50px;
+}
+.nameArea strong:hover {
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    background: rgb(204, 44, 156);
+}
 
 .cont .titArea {position: relative; overflow: hidden;}
 .cont .titArea:after {display: block; content: ''; clear: both;}
@@ -22,7 +35,24 @@
 .yearList li + li::before {height:40px;}
 .yearList li + li::after {top:65px;}
 
+.desc span {
+    display: block;
+}
+
 .icoList li::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_tel.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
 @media (max-width:1000px) and (orientation: portrait){
     .personal, .resume {float:none; width:100%;}
+}
+
+.icoList .email::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_mail.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
+@media (max-width:1000px) and (orientation: portrait){.personal, .resume {float:none; width:100%;}
+}
+.icoList .email::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_mail.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
+@media (max-width:1000px) and (orientation: portrait){.personal, .resume {float:none; width:100%;}
+}
+.icoList .address::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_address.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
+@media (max-width:1000px) and (orientation: portrait){.personal, .resume {float:none; width:100%;}
+}
+.cont ul li {
+    font-size: 20px;
 }
