@@ -1,23 +1,13 @@
-body{
-    font-family: sans-serif;
-}
-
 .content, .content > * {box-sizing:border-box;}
 .content:after {display:block; content:''; clear: both;}
-.personal {float:left; width:40%; padding:40px; background-color:#f3f2f2;}
 .resume {float:right; width:60%; padding:40px 40px 40px 20px;}
+.personal {float:left; width:40%; padding:40px; background-color:#f3f2f2;}
+
+.nameArea strong {font-size: 50px;}
+.nameArea strong:hover {font-size: 70px; color: rgb(255, 255, 255); background: rgb(204, 44, 156);}
 
 .personal .photo {height:200px; text-align:center;}
 .personal .photo img {width:auto; height:100%;}
-
-.nameArea strong {
-    font-size: 50px;
-}
-.nameArea strong:hover {
-    font-size: 70px;
-    color: rgb(255, 255, 255);
-    background: rgb(204, 44, 156);
-}
 
 .cont .titArea {position: relative; overflow: hidden;}
 .cont .titArea:after {display: block; content: ''; clear: both;}
@@ -30,22 +20,15 @@ body{
 .yearList li > div {float:left; position: relative;}
 .yearList li .year {width:150px; padding-top:20px; text-align: center;}
 .yearList li .desc {width:calc(100% - 150px);}
+.yearList li .desc span {display: block;}
 .yearList li::before {content:''; position:absolute; top:0; left:75px; width:2px; height:20px; background-color: #ffa99c;}
 .yearList li::after {content:''; position:absolute; top:45px; bottom:0; left:75px; width:2px; background-color:#ffa99c;}
 .yearList li + li::before {height:40px;}
 .yearList li + li::after {top:65px;}
 
-.desc span {
-    display: block;
-}
-
 .icoList li::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_tel.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
 @media (max-width:1000px) and (orientation: portrait){
     .personal, .resume {float:none; width:100%;}
-}
-
-.icoList .email::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_mail.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
-@media (max-width:1000px) and (orientation: portrait){.personal, .resume {float:none; width:100%;}
 }
 .icoList .email::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_mail.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
 @media (max-width:1000px) and (orientation: portrait){.personal, .resume {float:none; width:100%;}
@@ -53,6 +36,9 @@ body{
 .icoList .address::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_address.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
 @media (max-width:1000px) and (orientation: portrait){.personal, .resume {float:none; width:100%;}
 }
-.cont ul li {
-    font-size: 20px;
-}
+
+.graph ul {margin: 0 50px 0 50px; padding: 1px 0 0 0; border: 1px solid #ffa99c; border-top: 0; border-right: 0; font-size: 11px; list-style: none}
+.graph li {position: relative; margin: 10px 0; vertical-align: top; white-space: nowrap}
+.graph .g {position: absolute; top: 0;  left: -50px; width: 40px; font-weight: bold; color: #000000; line-height: 20px; text-align: right}
+.graph .g_bar {display: inline-block; position: relative; height: 20px; border: 1px solid #ffa99c;; border-left: 0; background: #ffa99c;}
+.graph .g_bar span {position: absolute; top: 0; right: -50px; width: 40px; color: #ffa99c; line-height: 20px}
