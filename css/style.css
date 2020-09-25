@@ -30,7 +30,7 @@ body{
 .yearList li > div {float:left; position: relative;}
 .yearList li .year {width:150px; padding-top:20px; text-align: center;}
 .yearList li .desc {width:calc(100% - 150px);}
-.yearList li::before {content:''; position:absolute; top:0; left:75px; width:2px; height:20px; background-color:#ffa99c;}
+.yearList li::before {content:''; position:absolute; top:0; left:75px; width:2px; height:20px; background-color: #ffa99c;}
 .yearList li::after {content:''; position:absolute; top:45px; bottom:0; left:75px; width:2px; background-color:#ffa99c;}
 .yearList li + li::before {height:40px;}
 .yearList li + li::after {top:65px;}
