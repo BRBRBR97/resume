@@ -26,7 +26,11 @@
 .yearList li + li::before {height:40px;}
 .yearList li + li::after {top:65px;}
 
-.icoList li::before {content: ''; display:inline-block; width:40px; height:40px; background-image:url(../images/ico_tel.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
+.icoList li {position: relative; padding-left: 50px;}
+.icoList li + li {margin-top:10px;}
+.icoList li > strong {display:block;}
+.icoList li > span {font-size:14px;}
+.icoList li::before {content: ''; display:inline-block; position: absolute; top:50%; left:0; width:40px; height:40px; margin-top:-20px; background-image:url(../images/ico_tel.png); background-repeat:no-repeat; background-size:34px 40px; background-position:0 0;}
 @media (max-width:1000px) and (orientation: portrait){
     .personal, .resume {float:none; width:100%;}
 }
