@@ -1,1 +1,14 @@
-/*work*/
+/* work */
+
+body {background: rgb(237,237,237);}
+
+main {display: flex;}
+
+aside {width: 50%; margin: 10px; padding: 20px; box-sizing: border-box;}
+aside img {width: 95%; height: 800px;}
+
+section {width: 50%; margin: 10px; padding: 20px; box-sizing: border-box; text-align:left;}
+section span {margin: 10px 10px 10px 0; padding: 30px 30px 30px 0; box-sizing: border-box; list-style: none; font-size: 20px; font-weight: bolder; color: rgb(69, 68, 222);}
+section h2 {font-size: 90px; font-weight: bolder; color: rgb(69, 68, 222);}
+section p {margin: 30px 0; letter-spacing: .15ch; font-size: 18px; font-weight: 900; color: rgb(231, 93, 90);}
+section .box {display: inline; padding: 13px 18px; border-radius: 10px 0; font-size: 20px; color: rgb(255, 255, 255); background: rgb(69, 68, 222);}
