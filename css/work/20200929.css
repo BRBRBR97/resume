@@ -1,17 +1,19 @@
-body {background-color: rgb(0, 0, 0); background-image: url(../images/work/1.jpg); background-repeat: no-repeat; background-size: 55%;}
+body {background-color: rgb(0, 0, 0); background-image: url(../../images/work/1.jpg); background-repeat: no-repeat; background-size: 55%;}
 
 header {margin-bottom: 100px; padding: 20px;}
 
 .container .logo {float: left; width: 60%; margin: 0 30px;}
-.container .logo span {display: block; margin: 0 -6px; color: rgb(255, 255, 255);}
+.container .logo span {display: block; margin: 0 -6px; font-family: cursive; color: rgb(255, 255, 255);}
 .container .menu {float: right; width: 40%;}
-.container .menu ul {display: flex; margin: -50px -50px 10px 20px;}
-.container .menu ul li { margin-right: 60px; list-style: none; font-size: 20px; color: rgb(255, 255, 255);}
+.container .menu ul {display: flex; margin: -50px -70px 10px 20px;}
+.container .menu ul li {margin-right: 60px; list-style: none; font-size: 20px;}
+.container .menu ul li a {color: rgb(255, 255, 255);}
 .clearfix::after {content: ""; clear: both; display: block;}
 
-main section {float: right; width: 650px;}
-main section h1 {display: inline; font-size: 5.5vw; -webkit-text-fill-color: transparent; background-image: url("http://66.media.tumblr.com/9d5be60c175cdbe15e875fef01b9a66b/tumblr_ntz3mmEFFr1twd8ddo1_500.gif"); -webkit-background-clip: text;}
+main section {float: right; width: 750px;}
+main section h1 {display: inline; font-size: 5.5vw; background: rgb(255, 255, 255); color: rgb(0,0,0);}
+/* display: inline; font-size: 5.5vw; -webkit-text-fill-color: transparent; background-image: url("http://66.media.tumblr.com/9d5be60c175cdbe15e875fef01b9a66b/tumblr_ntz3mmEFFr1twd8ddo1_500.gif"); -webkit-background-clip: text; */
 main section article h2 {margin-top: -50px; margin-bottom: 5px; font-size: 150px; color: rgb(252, 163, 105);}
 main section article p {margin-bottom: 50px; line-height: 3ch; letter-spacing: .2ch; color: rgb(255, 255, 255);}
-main section article .box {display: inline; width: 5px; height: 5px; padding: 10px 20px; border: 2px solid white; color:rgb(255, 255, 255);}
-.box::after {content: ""; display: inline; border-top: 2px solid transparent; border-right: 2px solid transparent; border-bottom: 2px solid transparent; border-left: 2px solid rgb(255, 63, 131);}
+main section article .box {display: inline; width: 5px; height: 5px; padding: 10px 25px; border: 2px solid white; color:rgb(255, 255, 255);}
+main section article .box::after {content: ""; margin-left: 15px; display: inline-block; width: 0; height: 0; border-style: solid; border-width: 7px; border-color: transparent transparent transparent rgb(255, 63, 131);}
