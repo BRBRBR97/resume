@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,12 +17,22 @@
             <span>Beauty</span>
         </div>
         <div class="menu">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Shope</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Shope</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -35,10 +44,32 @@
         <article>
             <h2>MAKEUP</h2>
             <p>Donec id nunc quis nunc tincidunt hendrerit. Aliquam<br />facilisis laoreet mauris nec tincidunt. Phasellus tempor<br />laoreet accumsan.</p>
-            <div class="box">Shop Now</div>
+            <a href="#" class="box">Shop Now</a>
         </article>
     </section>
 </main>
 </body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    // $('.menu ul li a').eq(2).on('mouseover', function() {
+    //     $(this).css('color', '#ff00ff');
+    // });
+    // $('.menu ul li a').eq(2).on('mouseleave', function() {
+    //     $(this).css('color', '#fff');
+    // });
+    $('#menu li').on('mouseover', function() {
+        $(this).children('a').css('color', '#ff00ff');
+    });
+    $('#menu li').on('mouseleave', function() {
+        $(this).children('a').css('color', '#fff');
+    });
+    $('main section article a').on('click', function () {
+        alert('클릭');
+    });
+    $('main section article h2').on('click', function () {
+        // $('main section article h2')
+        $(this).text('BORAM WOW');
+    });
+</script>
 </html>
