@@ -1,63 +1,55 @@
-header {background: rgb(47, 47, 47);}
-header nav {padding: 20px;}
-header nav .nav_left {display: inline; width: 40%; margin: 0 600px; font-size: 80px; color: #ffffff;}
-header nav .nav_right {display: inline; width: 60%; margin-left: 230px;}
+header {background: #2f2f2f;}
+header nav .nav_left {display: inline; width: 40%; margin: 0 700px; font-size: 60px; color: #ffffff;}
+header nav .nav_right {display: inline; margin-left: 230px;}
 header nav .nav_right ul {display: inline;}
-header nav .nav_right ul li {display: inline; font-size: 20px;}
-header nav .nav_right ul li a {margin-right: 60px; letter-spacing: .3ch; font-size: 23px; color: #ffffff;}
+header nav .nav_right ul li {display: inline;}
+header nav .nav_right ul li a {margin-right: 60px; letter-spacing: .3ch; font-size: 20px; color: #ffffff;}
 header nav .nav_right ul li a img {width: 50px; margin-right: -60px;}
 /*inner추가*/
-.inner{width: 1170px; min-width: 1170px; max-width: 1170px; margin: 0 auto;}
+.inner {width: 1170px; min-width: 1170px; max-width: 1170px; margin: 0 auto;}
 
 
-.section1 {height: 1350px; background: rgb(47, 47, 47);}
-.section1 .headline {width: 100%; height: 500px; padding: 200px 0; text-align: center;}
-.section1 .headline h2 {margin-top: 350px; letter-spacing: -.01ch; font-size: 90px; color: #ffffff;}
-.section1 .headline p {margin-top: -70px; margin-bottom: 80px; font-size: 27px; color: #ffffff;}
-.section1 .headline .box1 {margin-right: 30px; padding: 7px 15px; border: 2px solid #ffffff; border-radius: .5ch; letter-spacing: .2ch; font-size: 20px; color: #ffffff;}
-.section1 .headline .box2 {padding: 7px 15px; border: 2px solid rgb(239, 102, 30); border-radius: 1ch; letter-spacing: .2ch; font-size: 20px; color: #ffffff; background: rgb(239, 102, 30);}
-.section1 .btn {margin-top: 450px; border-radius: 5cm;}
-.section1 .btn img {width: 130px;}
+.welcome {height: 1100px; background: #2f2f2f;}
+.welcome .inner .headline {padding: 200px 0; text-align: center;}
+.welcome .inner .headline h2 {margin-top: 200px; font-size: 70px; color: #ffffff;}
+.welcome .inner .headline p {margin-top: -70px; margin-bottom: 50px; font-size: 21px; color: #ffffff;}
+.welcome .inner .headline .box1 { margin-right: 30px; padding: 7px 15px; border: 2px solid #ffffff; border-radius: .5ch; letter-spacing: .2ch; font-size: 20px; color: #ffffff; background: transparent;}
+.welcome .inner .headline .box2 {padding: 7px 15px; border: 2px solid #ef661e; border-radius: .5ch; letter-spacing: .2ch; font-size: 20px; color: #ffffff; background: #ef661e;}
+.welcome .inner .btn {margin-top: 450px;}
 .aa:before
-.section2 {height: 1300px;}
-.section2 .item article {display: inline-block; height: 500px; margin: 100px;}
-.section2 .item article img {width: 250px; margin-bottom: -330px;}
-.section2 .item article h2 {font-size: 30px; color: #000000;}
-.section2 .item article p {margin-top: 20px; font-size: 20px; color: #000000;}
-.section2 .item article .box {margin-top: -300px; padding: 10px 20px; border: 1px solid; border-radius: .5ch; letter-spacing: .1ch; font-size: 25px; font-weight: bold;}
-.section2 .por {width: 100%; margin-top: 300px; text-align: center;}
-.section2 .por .Portfolio {margin-bottom: 50px; font-size: 60px;}
-.section2 .por .box3 {margin-right: 20px; padding: 10px 20px; border: 2px solid rgb(239, 102, 30); border-radius: .7ch; letter-spacing: .2ch; font-size: 20px; color: #ffffff; background: rgb(239, 102, 30);}
-.section2 .por .box4 {margin-right: 15px; padding: 10px 20px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 20px; font-weight: bold;}
-.section2 .por .box5 {margin-right: 15px; padding: 10px 20px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 20px; font-weight: bold;}
-.section2 .por .box6 {margin-right: 15px; padding: 10px 20px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 20px; font-weight: bold;}
-.section2 .por .box7 {margin-right: 15px; padding: 10px 20px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 20px; font-weight: bold;}
-.section2 .por .box8 {margin-right: 15px; padding: 10px 20px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 20px; font-weight: bold;}
+
+
+.portfolio {background: #ffffff;}
+.portfolio .inner .item article {display: inline-block; width: 380px; margin: 100px 0; text-align: center;}
+.portfolio .inner .item article p {margin: 30px 0; font-size: 15px;}
+.portfolio .inner .item article .box {padding: 5px 10px; border: 1px solid; border-radius: .5ch; letter-spacing: .1ch; font-size: 15px; font-weight: bold; background: transparent;}
+.portfolio .inner .por {margin-top: 100px; text-align: center;}
+.portfolio .inner .por .Portfolio {margin-bottom: 50px; font-size: 40px;}
+.portfolio .inner .por .box3 {margin-right: 10px; padding: 5px 10px; border: 2px solid #ef661e; border-radius: .7ch; letter-spacing: .2ch; font-size: 10px; font-weight: bold; color: #ffffff; background: #ef661e;}
+.portfolio .inner .por .box4 {margin-right: 10px; padding: 5px 10px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 10px; font-weight: bold; background: transparent;}
+.portfolio .inner .por .box5 {margin-right: 10px; padding: 5px 10px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 10px; font-weight: bold; background: transparent;}
+.portfolio .inner .por .box6 {margin-right: 10px; padding: 5px 10px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 10px; font-weight: bold; background: transparent;}
+.portfolio .inner .por .box7 {margin-right: 10px; padding: 5px 10px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 10px; font-weight: bold; background: transparent;}
+.portfolio .inner .por .box8 {margin-right: 10px; padding: 5px 10px; border: 2px solid; border-radius: .7ch; letter-spacing: .2ch; font-size: 10px; font-weight: bold; background: transparent;}
 
 /*현재 table에 height가 들어가있는데 height는 작은요소(td, li) 같은데는 사용하지만 전체를 감싸는 엘리먼트에는 사용하지 않습니다.*/
 /*안에 자식 엘리먼트들의 padding margin을 잘넣으면 자동으로 맞게 퍼블리싱해야 합니다.*/
 /*왜? 만약 여기서 tr>td가 늘어나게 되면 table의 높이를 계속 수정해줘야 하기 때문입니다.*/
-.section3 {background: rgb(41, 43, 56); color: #ffffff;}
-.section3 table {border-collapse: collapse; table-layout: fixed; width: 100%; height: 980px;}
-.section3 table tr {text-align: left;}
-.section3 table tr td {margin: 200px 0; padding: 50px; border: 1px solid black; font-size: 20px;}
-.section3 table tr td p {margin: 100px 50px; padding: 10px;}
-.section3 table tr td p span {font-size: 80px;}
-.section3 table tr td .box {display: inline-block; padding: 9px 15px; border: 1px solid #ffffff; border-radius: 1ch; letter-spacing: .2ch;}
 
 /*20201004 김종환 추가*/
 /*속성과 클래스는 재사용할 수 있게 설계해야 합니다.*/
-.section3 table tr.jh td{padding: 57px 50px 70px;text-align:left; vertical-align: top;background: #292b38;}
-.section3 table tr.jh td.active{background: #1b1c24;}
-.section3 table tr.jh td.ico_camera:before{content: url("../../images/work/camera_1.png")}
-.section3 table tr.jh td.ico_pen:before{content: url("../../images/work/pen_1.png")}
-.section3 table tr.jh td.ico_video:before{content: url("../../images/work/video.png")}
-.section3 table tr.jh td p, .section3 table tr.jh td h6 {margin:0;padding:0;} /*위에 어딘가 p태그에대한 속성이 글로벌하게 들어가있어서 초기화함*/
-.section3 table tr.jh td .category, .section3 table tr.jh td .desc{font-size: 12px;}
-.section3 table tr.jh td .category{margin-top: 70px;}
-.section3 table tr.jh td .desc{margin-top: 50px;}
-.section3 table tr.jh td h6{margin-top:20px; font-size: 48px;}
-.section3 table tr.jh td button{margin-top: 50px; padding: 12px 15px 9px; font-size: 14px; background: transparent; border: solid 1px #fff;border-radius: 4px;}
+.photography .inner table {background: #292b38; color: #ffffff; border-collapse: collapse; table-layout: fixed; width: 100%; height: 980px;}
+.photography .inner table tr.jh td {padding: 57px 50px 70px; text-align: left; vertical-align: top; background: #292b38;}
+.photography .inner table tr.jh td.active {background: #1b1c24;}
+.photography .inner table tr.jh td.ico_camera:before {content: url("../../images/work/camera_1.png")}
+.photography .inner table tr.jh td.ico_pen:before {content: url("../../images/work/pen_1.png")}
+.photography .inner table tr.jh td.ico_video:before {content: url("../../images/work/video.png")}
+.photography .inner table tr.jh td p, .photography .inner table tr.jh td h6 {margin: 0; padding: 0;} /*위에 어딘가 p태그에대한 속성이 글로벌하게 들어가있어서 초기화함*/
+.photography .inner table tr.jh td .category, .photography .inner table tr.jh td .desc {font-size: 12px;}
+.photography .inner table tr.jh td .category {margin-top: 70px;}
+.photography .inner table tr.jh td .desc {margin-top: 50px;}
+.photography .inner table tr.jh td h6 {margin-top: 20px; font-size: 48px;}
+.photography .inner table tr.jh td button {margin-top: 50px; padding: 12px 15px 9px; font-size: 14px; background: transparent; border: solid 1px #fff; border-radius: 4px;}
 /*폰트밑에는 폰트마다 고유한 공백(padding)이 포함되있어서 버튼을 직사각형으로 똑같이 만들려면 이걸 감안해서 하단 패딩을 넣어주어야 합니다.*/
 
 

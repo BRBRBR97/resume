@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
 <header>
     <nav>
         <div class="nav_left">Termi</div>
@@ -30,98 +31,108 @@
 <!--각섹션마다 .inner 클래스를 추가해서 1170이상에서도 중앙정렬되게 해줍니다.-->
 <!--section이라는 태그를 사용하고 클래스는 섹션내용에 맞게 넣어줍니다.-->
 <!--아래의 경우는 <section class="welcome">...</section> 됩니다.-->
-<div class="section1">
+<section class="welcome">
     <div class="inner"> <!--20201004 김종환 inner추가(다른 사람이 작업해논곳에 추가하거나 수정할경우 이런식( 날짜, 수정한사람, 수정한내용)으로 넣어줍니다.  -->
         <div class="headline">
             <h2>Welcome To Our Theme</h2>
             <p>YOU CAN WORK ADAPTING YOUR DESIGN WITH EASE</p>
-            <span class="box1">GET STARTED</span>
-            <span class="box2">PURCHASE NOW</span>
+            <button class="box1">GET STARTED</button>
+            <button class="box2">PURCHASE NOW</button>
             <div class="btn">
                 <img src="../images/work/button.png" alt="button">
             </div>
         </div>
     </div>
-</div>
-<div class="section2">
-    <div class="item">
-         <article>
-            <img src="../images/work/headset.png" alt="headset">
-            <h2>Fast Online Support</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
-            <span class="box">READ MORE</span>
-        </article>
-        <article>
-            <img src="../images/work/up.png" alt="up">
-            <h2>Best For Seo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
-            <span class="box">READ MORE</span>
-        </article>
-        <article>
-            <img src="../images/work/security.png" alt="security">
-            <h2>Super Security</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
-            <span class="box">READ MORE</span>
-        </article>
+</section>
+
+<section class="portfolio">
+    <div class="inner">
+        <div class="item">
+            <article>
+                <img src="../images/work/headset.png" alt="headset">
+                <h2>Fast Online Support</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
+                <button class="box">READ MORE</button>
+            </article>
+            <article>
+                <img src="../images/work/up.png" alt="up">
+                <h2>Best for Seo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
+                <button class="box">READ MORE</button>
+            </article>
+            <article>
+                <img src="../images/work/security.png" alt="security">
+                <h2>Super Security</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
+                <button class="box">READ MORE</button>
+            </article>
+        </div>
+
+        <div class="por">
+            <div class="Portfolio">Our Portfolio</div>
+            <button class="box3">ALL</button>
+            <button class="box4">WEBSITES</button>
+            <button class="box5">BRANDING</button>
+            <button class="box6">GRAPHIC DESIGN</button>
+            <button class="box7">VIDEO</button>
+            <button class="box8">ONLINE MARKETING</button>
+        </div>
     </div>
-    <div class="por">
-        <div class="Portfolio">Our Portfolio</div>
-        <span class="box3">ALL</span>
-        <span class="box4">WEBSITES</span>
-        <span class="box5">BRANDING</span>
-        <span class="box6">GRAPHIC DESIGN</span>
-        <span class="box7">VIDEO</span>
-        <span class="box8">ONLINE MARKETING</span>
-    </div>
-</div>
-<div class="section3">
+</section>
+
+<section class="photograghy">
 <!--    table 태그는 실제 표같은 디자인같은 곳에서만 사용해야 합니다.(예: 시간표)-->
 <!--    div>ul>li 구조로 바꿔주세요.-->
-    <table>
-        <tr>
-            <td valign="top"><img src="../images/work/camera_1.png" alt="camera"></td>
-            <td valign="top" style="background: rgb(26,29,36)">
-                <img src="../images/work/camera_2.png" alt="camera"><br />
-<!--                    의미없는 아이콘일경우 before, after사용해 표현해줍니다. 의미의 기준은 정보가 있느냐 없느냐의 차이인데, 로고같은경우는 브랜드를 대표하는 이미지이니깐 의미가 있는거고 전화번호 앞에 전화번호 아이콘은 굳이 이미지의미를 몰라도 뒤에 번호를 보면 알수 있기때문에 이미지로 표현하지 않습니다.-->
-<!--                br테그는 같은 문장안에 줄내림일때만 사용합니다. -->
-<!--                이런디자인에서는 마진과 패딩으로 아니면 블록태그를 사용해서 처리해야 합니다.-->
-<!--                맨하단 참고-->
-                <p>Art / February 16, 2019<br /><span>Desert<br />Travel Photograghy</span><br />Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.<br /></p>
-                <div class="box">SEE MORE</div>
-            <td valign="top"><img src="../images/work/pen_1.png" alt="pen"></td>
-        </tr>
-        <tr>
-            <td valign="top" style="background: rgb(26,29,36)">
-                <img src="../images/work/pen_2.png" alt="pen"><br />
-                <p>Photograghy / February 5, 2019<br /><span>Forest<br />Production</span><br />Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.<br /></p>
-                <div class="box">SEE MORE</div>
-            </td>
-            <td valign="top"><img src="../images/work/camera_1.png" alt="camera"></td>
-            <td valign="top" valign="top" style="background: rgb(26,29,36)">
-              <img src="../images/work/video.png" alt="video"><br />
-                <p>Casting Film / September 17, 2019<br />
-                    <span>Worldwide<br />Campaign</span><br />Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.<br /></p>
-                    <div class="box">SEE MORE</div>
-            </td>
-        </tr>
+    <div class="inner">
+        <table>
+            <tr class="jh">
+                <td class="ico_camera"></td>
+                <td class="ico_camera active">
+                    <p class="category">Art / February 16, 2019</p>
+                    <h6>Desert<br />Travel Photograghyy</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+                <td class="ico_pen"></td>
+            </tr>
+
+            <tr class="jh">
+                <td class="ico_pen active">
+                    <p class="category">Photograghy / February 5, 2019</p>
+                    <h6>Forest<br />Production</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+                <td class="ico_camera"></td>
+                <td class="ico_viedo active">
+                    <p class="category">Casting Film / September 17, 2019</p>
+                    <h6>Worldwide<br />Campaign</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+            </tr>
+
+            <tr class="jh">
+                <td class="ico_camera"></td>
+                <td class="ico_video active">
+                    <p class="category">Photograghy / February 15, 2019</p>
+                    <h6>Landscape<br />Photograghy</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+                <td class="ico_pen"></td>
+            </tr>
+        </table>
+    </div>
+</section>
 <!--        참고용-->
 <!--        valign속석은 css에 넣어주세요. 퍼블리싱작업할땐 inline으로 css속성을 넣으면 안됩니다.-->
 <!--        허용하는경우는 퍼블리싱 작업후 넘겨줄때 애매하거나 다음작업자가 다른 클래스나 속성을 알아야 할때만 추가합니다.-->
 <!--        예 <button class="on">클릭하면 .on클래스 추가해주세요</button> 실제 사용자가 처음보는 화면에서는 on클래가 필요없지만 클릭했을때 추가된다는걸 알려주기 위해 임의로 디자인과다르게 추가 -->
 <!--        예 <button style="display: none;">클릭하면  사라지게 해주세요 </button> 개발자는 css 를 잘모르니 이렇게 넣으라고 알려줌 -->
-        <tr class="jh">
-            <td class="ico_camera"></td>
-            <td class="ico_video active">
-                <p class="category">Photograghy / February 15, 2019</p>
-                <h6>Landscape<br />Photograghy</h6>
-                <p class="desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <button>SEE MORE</button>
-            </td>
-            <td class="ico_pen"></td>
-        </tr>
-    </table>
-</div>
+
 </body>
+
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.js"></script>
 <script>
     $('.nav_right ul li').on('mouseover', function () {
@@ -131,4 +142,5 @@
         $(this).children('a').css('color', '#ffffff');
     });
 </script>
+
 </html>
