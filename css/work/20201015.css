@@ -1,0 +1,60 @@
+.inner {width: 1170px; min-width: 1170px; max-width: 1170px; margin: 0 auto; padding: 50px 0;}
+.clearfix::after {content: ""; display: block; clear: both;}
+
+
+.section1 {background: rgb(82, 82, 82);}
+.section1 .inner .header .container .left {float: left;}
+.section1 .inner .header .container .left .logo img {width: 100px;}
+.section1 .inner .header .container .right {text-align: right;}
+.section1 .inner .header .container .right nav ul li {display: inline; list-style: none;}
+.section1 .inner .header .container .right nav ul li a {margin-right: 40px; text-decoration: none; font-size: 18px; color: #ffffff;}
+.section1 .inner .header .container .right nav ul li a span {color: rgb(198, 158, 86);}
+.section1 .inner section {margin: 200px; padding: 50px; text-align: center;}
+.section1 .inner section article {color: #ffffff;}
+.section1 .inner section article h2 {font-size: 50px; color: #ffffff;}
+.section1 .inner section article p {margin-top: -20px;}
+.section1 .inner section article button {margin-top: 20px; padding: 15px 35px; border: 1px solid rgb(198, 158, 86); background: rgb(198, 158, 86); color: #ffffff;}
+
+
+.section2 .inner .us {float: left; padding: 60px;}
+.section2 .inner .us h2 {font-size: 30px;}
+.section2 .inner .us p {font-size: 15px; color: rgb(82, 82, 82);}
+.section2 .inner .us button {margin-top: 20px; padding: 20px 30px; border: 1px solid rgb(198, 158, 86); background: transparent; font-size: 15px; font-weight: bolder; color: rgb(198, 158, 86);}
+.section2 .inner .box {margin: 80px 0 80px 500px;}
+
+
+.section3 {padding: 100px; text-align: center;}
+.section3 .inner {}
+.section3 .inner .theme {font-size: 40px;}
+.section3 .inner .theme .first {}
+.section3 .inner .theme .first .haircut {}
+.section3 .inner .theme .first .haircut h2 {}
+.section3 .inner .theme .first .haircut p {color: rgb(82, 82, 82);}
+.section3 .inner .theme .first .shaving {}
+.section3 .inner .theme .first .shaving h2 {}
+.section3 .inner .theme .first .shaving p {color: rgb(82, 82, 82);}
+.section3 .inner .theme .first .facial {}
+.section3 .inner .theme .first .facial h2 {}
+.section3 .inner .theme .first .facial p {color: rgb(82, 82, 82);}
+.section3 .inner .theme .second {}
+.section3 .inner .theme .second .beard {}
+.section3 .inner .theme .second .beard h2 {}
+.section3 .inner .theme .second .beard p {color: rgb(82, 82, 82);}
+.section3 .inner .theme .second .styling {}
+.section3 .inner .theme .second .styling h2 {}
+.section3 .inner .theme .second .styling p {color: rgb(82, 82, 82);}
+.section3 .inner .theme .second .trimming {}
+.section3 .inner .theme .second .trimming h2 {}
+.section3 .inner .theme .second .trimming p {color: rgb(82, 82, 82);}
+
+
+.section4 {text-align: center;}
+.section4 .inner .title {margin-top: 100px; margin-bottom: 50px; font-size: 40px;}
+/* .section4 .inner .content {display: inline-block; margin: 20px 5px; padding: 200px 50px; font-size: 20px; color: #ffffff; background-image: url('barbers.png'); background-repeat: no-repeat;} */
+.section4 .inner .content .name1 {}
+.section4 .inner .content .name2 {}
+.section4 .inner .content .name3 {}
+.section4 .inner .content .name4 []
+
+
+.section5 {width: 100%; height: 800px; background-image: url('../../images/work/b_video.png'); background-repeat: no-repeat;}

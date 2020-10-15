@@ -1,4 +1,4 @@
-/* body {font-style: '나눔고딕';} */
+body {font-family: '나눔고딕', 'NanumGothic', 'serif';}
 
 
 .inner {width: 1170px; min-width: 1170px; max-width: 1170px; margin: 0 auto;}
@@ -23,7 +23,6 @@
 .section1 .inner section span .ico2 a {text-decoration: none; color: rgb(166, 154, 158);}
 
 
-/* .section2 {background: rgb(253, 253, 253);} */
 .section2 {background: rgb(250, 249, 249);}
 .section2 .inner .theme {padding: 50px; font-size: 15px;}
 .section2 .inner .theme .theme_left {float: left; margin-right: 90px; font-weight: bolder; color: rgb(206, 75, 179);}
