@@ -9,52 +9,86 @@
 .section1 .inner .header .container .right nav ul li {display: inline; list-style: none;}
 .section1 .inner .header .container .right nav ul li a {margin-right: 40px; text-decoration: none; font-size: 18px; color: #ffffff;}
 .section1 .inner .header .container .right nav ul li a span {color: rgb(198, 158, 86);}
-.section1 .inner section {margin: 200px; padding: 50px; text-align: center;}
+.section1 .inner section {margin: 110px 0; padding: 50px; text-align: center;}
 .section1 .inner section article {color: #ffffff;}
-.section1 .inner section article h2 {font-size: 50px; color: #ffffff;}
-.section1 .inner section article p {margin-top: -20px;}
-.section1 .inner section article button {margin-top: 20px; padding: 15px 35px; border: 1px solid rgb(198, 158, 86); background: rgb(198, 158, 86); color: #ffffff;}
+.section1 .inner section article h2 {font-size: 60px; color: #ffffff;}
+.section1 .inner section article p {margin-top: -20px; font-size: 20px;}
+.section1 .inner section article button {margin-top: 20px; padding: 20px 35px; border: 1px solid rgb(198, 158, 86); background: rgb(198, 158, 86); font-size: 18px; color: #ffffff;}
 
 
-.section2 .inner .us {float: left; padding: 60px;}
-.section2 .inner .us h2 {font-size: 30px;}
-.section2 .inner .us p {font-size: 15px; color: rgb(82, 82, 82);}
+.section2 .inner .us {float: left; height: 400px; margin: 50px 0; padding: 50px 0;}
+.section2 .inner .us h2 {font-size: 40px;}
+.section2 .inner .us p {font-size: 17px; color: rgb(82, 82, 82);}
 .section2 .inner .us button {margin-top: 20px; padding: 20px 30px; border: 1px solid rgb(198, 158, 86); background: transparent; font-size: 15px; font-weight: bolder; color: rgb(198, 158, 86);}
-.section2 .inner .box {margin: 80px 0 80px 500px;}
+.section2 .inner .box {margin: 80px 0 80px 600px;}
 
 
-.section3 {padding: 100px; text-align: center;}
-.section3 .inner {}
-.section3 .inner .theme {font-size: 40px;}
-.section3 .inner .theme .first {}
-.section3 .inner .theme .first .haircut {}
-.section3 .inner .theme .first .haircut h2 {}
-.section3 .inner .theme .first .haircut p {color: rgb(82, 82, 82);}
-.section3 .inner .theme .first .shaving {}
-.section3 .inner .theme .first .shaving h2 {}
-.section3 .inner .theme .first .shaving p {color: rgb(82, 82, 82);}
-.section3 .inner .theme .first .facial {}
-.section3 .inner .theme .first .facial h2 {}
-.section3 .inner .theme .first .facial p {color: rgb(82, 82, 82);}
-.section3 .inner .theme .second {}
-.section3 .inner .theme .second .beard {}
-.section3 .inner .theme .second .beard h2 {}
-.section3 .inner .theme .second .beard p {color: rgb(82, 82, 82);}
-.section3 .inner .theme .second .styling {}
-.section3 .inner .theme .second .styling h2 {}
-.section3 .inner .theme .second .styling p {color: rgb(82, 82, 82);}
-.section3 .inner .theme .second .trimming {}
-.section3 .inner .theme .second .trimming h2 {}
-.section3 .inner .theme .second .trimming p {color: rgb(82, 82, 82);}
+.section3 {background: rgb(247, 247, 247);}
+.section3 .inner {display: block; text-align: center;}
+.section3 .inner .theme {padding: 100px 0; font-size: 50px; font-weight: bolder;}
+.section3 .inner .first {margin-bottom: 50px;}
+.section3 .inner .first .haircut {float: left; width: 24%; margin-right: 40px; padding: 30px; background: #ffffff;}
+.section3 .inner .first .haircut,.shaving,.facial article p {line-height: 8mm; color: rgb(82, 82, 82);}
+.section3 .inner .first .haircut article:before {content: url("../../images/work/haircut.png")}
+.section3 .inner .first .shaving {float: left; width: 24%; margin-right: 40px; padding: 30px; background: #ffffff;}
+.section3 .inner .first .shaving article:before {content: url("../../images/work/shaving.png")}
+.section3 .inner .first .facial {float: left; width: 24%; margin-right: 40px; padding: 30px; background: #ffffff;}
+.section3 .inner .first .facial article:before {content: url("../../images/work/facial.png")}
+.section3 .inner .second {margin-bottom: 100px;}
+.section3 .inner .second .beard {float: left; width: 24%; margin-right: 40px; padding: 30px; background: #ffffff;}
+.section3 .inner .second .beard,.styling,.trimming article p {line-height: 8mm; color: rgb(82, 82, 82);}
+.section3 .inner .second .beard article:before {content: url("../../images/work/beard.png")}
+.section3 .inner .second .styling {float: left; width: 24%; margin-right: 40px; padding: 30px; background: #ffffff;}
+.section3 .inner .second .styling article:before {content: url("../../images/work/styling.png")}
+.section3 .inner .second .trimming {float: left; width: 24%; margin-right: 40px; padding: 30px; background: #ffffff;}
+.section3 .inner .second .trimming article:before {content: url("../../images/work/trimming.png")}
 
 
 .section4 {text-align: center;}
-.section4 .inner .title {margin-top: 100px; margin-bottom: 50px; font-size: 40px;}
-/* .section4 .inner .content {display: inline-block; margin: 20px 5px; padding: 200px 50px; font-size: 20px; color: #ffffff; background-image: url('barbers.png'); background-repeat: no-repeat;} */
-.section4 .inner .content .name1 {}
-.section4 .inner .content .name2 {}
-.section4 .inner .content .name3 {}
-.section4 .inner .content .name4 []
+.section4 .inner .title {padding: 100px; font-size: 50px; font-weight: bolder;}
+.section4 .inner .name img {margin-bottom: 150px;}
 
 
 .section5 {width: 100%; height: 800px; background-image: url('../../images/work/b_video.png'); background-repeat: no-repeat;}
+
+
+.section6 .inner {text-align: center;}
+.section6 .inner .test_title {margin-bottom: 100px; margin-left: -150px; padding: 10px; font-size: 50px; font-weight: bolder;}
+.section6 .inner .test {width: 1170px; height: 500px; background-image: url('../../images/work/test.png'); background-repeat: no-repeat;}
+.section6 .inner .test p {margin-left: -150px; padding: 80px; font-size: 25px;}
+.section6 .inner .test h2 {margin-top: -40px; margin-left: -130px; font-weight: bolder;}
+
+
+.section7 {height: 990px;}
+.section7 .inner .latest_title {padding: 100px; text-align: center; font-size: 50px; font-weight: bolder;}
+.section7 .inner .latest img {margin-top: -50px;}
+.section7 .inner .latest .b_box {text-align: left;}
+.section7 .inner .latest .b_box .box1 {float: left; margin: 20px 40px;}
+.section7 .inner .latest .b_box .box1 p {margin-bottom: 70px; color: rgb(71, 71, 71);}
+.section7 .inner .latest .b_box .box1 button {border: 1px solid #ffffff; background: transparent; font-size: 18px;}
+.section7 .inner .latest .b_box .box1 button a {text-decoration: none; color: rgb(71, 71, 71);;}
+.section7 .inner .latest .b_box .box2 {float: left; margin: 20px 60px;}
+.section7 .inner .latest .b_box .box2 h2 {color: rgb(198, 158, 86);}
+.section7 .inner .latest .b_box .box2 p {margin-bottom: 100px; color: rgb(71, 71, 71);}
+.section7 .inner .latest .b_box .box2 button {border: 1px solid #ffffff; background: transparent; font-size: 18px;}
+.section7 .inner .latest .b_box .box2 button a {text-decoration: none; color: rgb(198, 158, 86);}
+.section7 .inner .latest .b_box .box3 {float: left; margin: 20px 60px;}
+.section7 .inner .latest .b_box .box3 p {margin-bottom: 100px; color: rgb(71, 71, 71);}
+.section7 .inner .latest .b_box .box3 button {border: 1px solid #ffffff; background: transparent; font-size: 18px;}
+.section7 .inner .latest .b_box .box3 button a {text-decoration: none; color: #000000;}
+
+
+.sectionX {height: 500px; padding: 50px 0; background: rgb(51, 51, 51); color: #ffffff;}
+.sectionX .inner .footer .left {float: left; margin-right: 250px; line-height: 10mm;}
+.sectionX .inner .footer .left img {display: block; width: 200px;}
+.sectionX .inner .footer .left p {margin: 30px 0; font-size: 20px;}
+.sectionX .inner .footer .left:after {content: url('../../images/work/b_sns.png');}
+.sectionX .inner .footer .center {float: left; margin-right: 200px;}
+.sectionX .inner .footer .center h2 {display: block; margin-top: -10px; font-size: 30px; color: rgb(198, 158, 86);}
+.sectionX .inner .footer .center li {list-style: none; font-size: 20px;}
+.sectionX .inner .footer .center li a {line-height: 11mm; text-decoration: none; color: #ffffff;}
+.sectionX .inner .footer .right {float: left;}
+.sectionX .inner .footer .right h2 {margin-top: -10px; font-size: 30px; color: rgb(198, 158, 86);}
+.sectionX .inner .footer .right input {padding: 15px 70px 15px 20px;}
+.sectionX .inner .footer .right sub {margin-left:-5px; padding: 20px 15px; background: rgb(198, 158, 86);}
+.sectionX .inner .foot {margin-top: 150px; padding: 20px; text-align: center; font-size: 20px;}
