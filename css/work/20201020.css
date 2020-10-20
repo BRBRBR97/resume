@@ -38,7 +38,7 @@ body {width: 100%; background: rgb(241, 241, 241);}
 .bottom {margin-bottom: 20px; padding: 10px 5px; background: #ffffff; text-align: center;}
 .bottom img {margin-right: 10px;}
 .bottom span {display: inline-block; text-align: center;}
-.bottom span .box_4 {float: left; margin-right: 55px; margin-left: -8px; font-size: 10px; font-weight: bolder;}
+.bottom span .box_4 {float: left; margin-right: 55px; font-size: 10px; font-weight: bolder;}
 .bottom span .box_5 {float: left; margin-right: 55px; font-size: 10px; font-weight: bolder;}
 .bottom span .box_6 {float: left; font-size: 10px; font-weight: bolder;}
 
