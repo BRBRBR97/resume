@@ -16,18 +16,23 @@ body {width: 100%; background: rgb(241, 241, 241);}
 
 
 .center {margin-bottom: 12px; padding: 10px 5px; background: #ffffff; text-align: center;}
-.center .water .first {display: inline-block; width: 300px; padding: 0 30px;}
-.center .water .first img {width: 100%;}
-.center .water span {display: inline-block; text-align: center;}
-.center .water span .box_1 {float: left;}
-.center .water span .box_1 h2 {margin-right: 50px; font-size: 10px; color: rgb(214, 214, 214);}
-.center .water span .box_1 p {margin-top: -5px; margin-right: 80px; margin-left: 30px; font-weight: bolder; font-size: 13px;}
-.center .water span .box_2 {float: left;}
-.center .water span .box_2 h2 {margin-right: 50px; font-size: 10px; color: rgb(214, 214, 214);}
-.center .water span .box_2 p {margin-top: -5px;  margin-right: 80px; font-weight: bolder; font-size: 13px;}
-.center .water span .box_3 h2 {font-size: 10px; color: rgb(214, 214, 214);}
-.center .water span .box_3 p {margin-top: -5px; font-weight: bolder; font-size: 13px;}
-.center .second img {margin: 20px;}
+.center .water {display: inline-block;}
+.center .water .box_1 {float: left; width: 33%;}
+.center .water .box_1 a {text-decoration: none;}
+.center .water .box_1 a img {width: 100%;}
+.center .water .box_1 a h2 {margin-right: 30px; font-size: 10px; color: rgb(214, 214, 214);}
+.center .water .box_1 a p {margin-top: -5px; margin-right: 20px; font-weight: bolder; font-size: 13px; color: #000000;}
+.center .water .box_2 {float: left; width: 33%;}
+.center .water .box_2 a {text-decoration: none;}
+.center .water .box_2 a img {width: 100%;}
+.center .water .box_2 h2 {margin-right: 30px; font-size: 10px; color: rgb(214, 214, 214);}
+.center .water .box_2 p {margin-top: -5px;  margin-right: 20px; font-weight: bolder; font-size: 13px; color: #000000;}
+.center .water .box_3 {float: left; width: 33%;}
+.center .water .box_3 a {text-decoration: none;}
+.center .water .box_3 a img {width: 100%;}
+.center .water .box_3 h2 {font-size: 10px; color: rgb(214, 214, 214);}
+.center .water .box_3 p {margin-top: -5px; font-weight: bolder; font-size: 13px; color: #000000;}
+.center .first img {margin: 20px;}
 .center .button .btn_1 {margin-bottom: 7px; padding: 10px 75px; border: 1px solid rgb(0, 158, 171); background: rgb(0, 158, 171); font-size: 10px; color: #ffffff;}
 .center .button .btn_1:before {content: url('../../images/work/cal.png'); margin-right: 10px; margin-left: -90px;}
 .center .button .btn_1:after {content: url('../../images/work/up1.png'); margin-right: -80px; margin-left: 80px;}
@@ -37,12 +42,12 @@ body {width: 100%; background: rgb(241, 241, 241);}
 
 
 .bottom {margin-bottom: 20px; padding: 10px 5px; background: #ffffff; text-align: center;}
-.bottom .pic {display: inline-block; width: 300px; padding: 0 30px;}
-.bottom .pic img {width: 100%; margin-right: 10px;}
-.bottom span {display: inline-block;}
-.bottom span .box_4 {float: left; margin-right: 50px; font-size: 12px; font-weight: bolder;}
-.bottom span .box_5 {float: left; margin-right: 50px; font-size: 12px; font-weight: bolder;}
-.bottom span .box_6 {float: left; font-size: 12px; font-weight: bolder;}
+.bottom .box_4 a {display: inline-block; width: 50px; margin: 0 25px; text-decoration: none; font-size: 10px; font-weight: bolder; color: #000000;}
+.bottom .box_4 a img {width: 100%;}
+.bottom .box_5 a {display: inline-block; width: 50px; margin: 0 25px; text-decoration: none; font-size: 10px; font-weight: bolder; color: #000000;}
+.bottom .box_5 a img {width: 100%;}
+.bottom .box_6 a {display: inline-block; width: 50px; margin: 0 25px; text-decoration: none; font-size: 10px; font-weight: bolder; color: #000000;}
+.bottom .box_6 a img {width: 100%;}
 
 
 .footer {text-align: center; background: rgb(241, 241, 241);}
