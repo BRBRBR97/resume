@@ -2,7 +2,7 @@ body {width: 100%; background: rgb(241, 241, 241);}
 
 
 .top {margin-bottom: 12px; background: #ffffff;}
-.top .header {width: 100%; height: 2.10711%; background: #ffffff;}
+.top .header {width: 100%; height: 2.10711%; padding: 5px 0; background: #ffffff;}
 .top .selected {width: 100%; height: 4.91659%; padding: 20px 0; font-weight: bolder;}
 .top .selected:before {content: url('../../images/work/sel.png'); margin-right: 30px; padding: 10px 0;}
 .top .title {width: 100%; height: 3.51185%; padding: 8px 0; background: linear-gradient(to right, rgb(0, 171, 107), rgb(0, 158, 171)); text-align: center; font-size: 11px; color: #ffffff;}
@@ -16,17 +16,18 @@ body {width: 100%; background: rgb(241, 241, 241);}
 
 
 .center {margin-bottom: 12px; padding: 10px 5px; background: #ffffff; text-align: center;}
-.center .water span  {display: inline-block; text-align: center;}
+.center .water .first {display: inline-block; width: 300px; padding: 0 30px;}
+.center .water .first img {width: 100%;}
+.center .water span {display: inline-block; text-align: center;}
 .center .water span .box_1 {float: left;}
-.center .water span .box_1 h2 {margin-right: 120px; font-size: 10px; color: rgb(214, 214, 214);}
-.center .water span .box_1 p {margin-top: -5px; margin-right: 120px; font-weight: bolder; font-size: 13px;}
+.center .water span .box_1 h2 {margin-right: 50px; font-size: 10px; color: rgb(214, 214, 214);}
+.center .water span .box_1 p {margin-top: -5px; margin-right: 80px; margin-left: 30px; font-weight: bolder; font-size: 13px;}
 .center .water span .box_2 {float: left;}
-.center .water span .box_2 h2 {margin-right: 120px; font-size: 10px; color: rgb(214, 214, 214);}
-.center .water span .box_2 p {margin-top: -5px;  margin-right: 120px; font-weight: bolder; font-size: 13px;}
-.center .water span .box_3 {float: left;}
-.center .water span  .box_3 h2 {font-size: 10px; color: rgb(214, 214, 214);}
-.center .water span  .box_3 p {margin-top: -5px; font-weight: bolder; font-size: 13px;}
-.center img {margin-bottom: 20px;}
+.center .water span .box_2 h2 {margin-right: 50px; font-size: 10px; color: rgb(214, 214, 214);}
+.center .water span .box_2 p {margin-top: -5px;  margin-right: 80px; font-weight: bolder; font-size: 13px;}
+.center .water span .box_3 h2 {font-size: 10px; color: rgb(214, 214, 214);}
+.center .water span .box_3 p {margin-top: -5px; font-weight: bolder; font-size: 13px;}
+.center .second img {margin: 20px;}
 .center .button .btn_1 {margin-bottom: 7px; padding: 10px 75px; border: 1px solid rgb(0, 158, 171); background: rgb(0, 158, 171); font-size: 10px; color: #ffffff;}
 .center .button .btn_1:before {content: url('../../images/work/cal.png'); margin-right: 10px; margin-left: -90px;}
 .center .button .btn_1:after {content: url('../../images/work/up1.png'); margin-right: -80px; margin-left: 80px;}
@@ -36,11 +37,12 @@ body {width: 100%; background: rgb(241, 241, 241);}
 
 
 .bottom {margin-bottom: 20px; padding: 10px 5px; background: #ffffff; text-align: center;}
-.bottom img {margin-right: 10px;}
-.bottom span {display: inline-block; text-align: center;}
-.bottom span .box_4 {float: left; margin-right: 55px; font-size: 10px; font-weight: bolder;}
-.bottom span .box_5 {float: left; margin-right: 55px; font-size: 10px; font-weight: bolder;}
-.bottom span .box_6 {float: left; font-size: 10px; font-weight: bolder;}
+.bottom .pic {display: inline-block; width: 300px; padding: 0 30px;}
+.bottom .pic img {width: 100%; margin-right: 10px;}
+.bottom span {display: inline-block;}
+.bottom span .box_4 {float: left; margin-right: 50px; font-size: 12px; font-weight: bolder;}
+.bottom span .box_5 {float: left; margin-right: 50px; font-size: 12px; font-weight: bolder;}
+.bottom span .box_6 {float: left; font-size: 12px; font-weight: bolder;}
 
 
 .footer {text-align: center; background: rgb(241, 241, 241);}
