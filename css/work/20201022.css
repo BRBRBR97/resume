@@ -1,0 +1,52 @@
+body {width: 100%; text-align: center;}
+
+
+.topBar {height: 38px; text-align: right;}
+.topBar .bar {display: inline-block; width: 50px;}
+.topBar .bar img {width: 100%;}
+.topBar span {display: inline-block; margin-right: 10px; font-size: 20px; font-weight: bolder; color: rgb(68, 68, 68);}
+
+
+.header {height: 88px; border-bottom: 1px solid #e0e0e0;}
+.header .header_box .header_left {float: left; width: 20px;}
+.header .header_box .header_left a img {width: 100%;}
+.header .header_box span {font-size: 28px; font-weight: bolder;}
+.header .header_box .header_right {float: right; width: 25px;}
+.header .header_box .header_right a img {width: 100%; margin-right: 10px;}
+.header .header_box .header_right2 {float:right; width: 25px;}
+.header .header_box .header_right2 a img {width: 100%;}
+
+
+main .section {height: 917px;}
+main .section .top .btn_1 {margin-top: 30px; text-align: center;}
+main .section .top .btn_1 .find {width: 170px; height: 60px; border-radius: 4px; background: #000000; font-size: 20px; color: #ffffff;}
+main .section .top .btn_1 .register {width: 170px; height: 60px; border: solid 1px #e6e6e6; border-radius: 4px; background: transparent; font-size: 20px;}
+main .section .top .text {margin: 50px 0; text-align: center; font-size: 14px; font-weight: bolder;}
+main .section .top .box {margin: 20px 0;}
+main .section .top .box .a {margin-right: 5px; padding: 20px 25px; border: 1px solid #e6e6e6; font-size: 20px;}
+main .section .top .box .b {margin-right: 5px; padding: 20px 25px; border: 1px solid #e6e6e6; font-size: 20px;}
+main .section .top .box .c {margin-right: 5px; padding: 20px 25px; border: 1px solid #e6e6e6; font-size: 20px;}
+main .section .top .box .d {margin-right: 5px; padding: 20px 25px; border: 1px solid #e6e6e6; font-size: 20px;}
+main .section .top .inquiry {width: 200px; height: 60px; margin: 30px 0; text-align: center; border: 1px solid #e6e6e6; border-radius: 4px; background: #e6e6e6; font-size: 22px; font-weight: bolder; color: #4e4e4e;}
+main .section .top .content {text-align: left;}
+main .section .top .content span {display: inline-block; margin-bottom: 10px; font-size: 20px; font-weight: bolder;}
+main .section .top .content .car_info {width: 324px; height: 180px; margin-bottom: 50px; margin-left: 10px; padding: 10px; border: 2px solid #e6e6e6; color: #666666;}
+main .section .top .content .car_info span {font-size: 18px; color: #000000;}
+main .section .top .content .car_info hr {border: 1px solid #e6e6e6;}
+main .section .top .content .car_info .list_1  {float: left;}
+main .section .top .content .car_info .list_1 ul {margin-left: -10px; line-height: 8mm; color: #666666;}
+main .section .top .content .car_info .list_2 {float: right;}
+main .section .top .content .car_info .list_2 ul {list-style: none; line-height: 8mm; text-align: right;}
+
+
+main .section .bottom {text-align: left; padding: 5px;}
+main .section .bottom img {float: left; width: 40px;}
+main .section .bottom .simple {display: inline-block;}
+main .section .bottom .simple p {float: left; color: #666666;}
+main .section .bottom .simple .b_regis {float: right; margin: 20px 0 0 15px; padding: 5px 10px; border-radius: 1.5mm; background: #000000; font-size: 15px; color: #ffffff;}
+
+
+main .section .footer {text-align: left;}
+main .section .footer ul {padding: 30px 20px; line-height: 7mm; background: #f1f1f1;}
+main .section .footer ul li {font-size: 14px; color: #666666;}
+main .section .footer ul li a img {width: 15px; margin-left: 5px;}
