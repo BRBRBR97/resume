@@ -1,0 +1,51 @@
+/* body {width: 100%;} */
+body {width: 720px; border: 1px solid;}
+
+header {width: 200px; height: 48px; margin-top: 5px; margin-left: 510px;}
+header img {width: 100%;}
+
+.logo {width: 150px; height: 81px;}
+.logo img {width: 100%; margin: 24px 48px 0 522px;}
+
+main .section1 h3 {height: 30px; margin-left: 50px; line-height: 2; letter-spacing: -0.64px; text-align: left; font-size: 22px; font-weight: bold; color: #c30e2e;}
+main .section1 p {height: 108px; margin-top: 24px; margin-left: 48px; line-height: 1.33; letter-spacing: -2.4px; text-align: left; font-size: 44px; font-weight: 300; color: #222222;}
+main .section1 p span {font-weight: bold;}
+
+main .section2 {margin-top: 79px; margin-left: 48px;}
+main .section2 .title1 {height: 35px; line-height: 1.33; letter-spacing: -0.92px; text-align: left; font-size: 36px; font-weight: bold; color: #222222;}
+main .section2 .save {margin-top: 47px;}
+main .section2 .save img {float: left; width: 104px; height: 104px; margin-right: 24px;}
+main .section2 .save .wrapper {display: inline-block; margin-top: -15px;}
+main .section2 .save .wrapper h2 {height: 30px; line-height: 1.5; letter-spacing: -0.64px; text-align: left; font-size: 32px; color: #222222;}
+main .section2 .save .wrapper p {height: 22px; margin-top: -10px; line-height: 2; letter-spacing: -0.5px; text-align: left; font-size: 21px; color: #999999;}
+main .section2 .phone {margin-top: 24px;}
+main .section2 .phone img {float: left; width: 104px; height: 104px; margin-right: 24px;}
+main .section2 .phone .wrapper {display: inline-block; margin-top: -15px;}
+main .section2 .phone .wrapper h2 {height: 30px; line-height: 1.5; letter-spacing: -0.64px; text-align: left; font-size: 32px; color: #222222;}
+main .section2 .phone .wrapper p {height: 22px; margin-top: -10px; line-height: 2; letter-spacing: -0.5px; text-align: left; font-size: 21px; color: #999999;}
+
+main .section3 {margin-top: 79px; margin-left: 48px;}
+main .section3 .title2 {height: 35px; line-height: 1.33; letter-spacing: -0.92px; text-align: left; font-size: 36px; font-weight: bold; color: #222222;}
+main .section3 .gps {margin-top: 47px;}
+main .section3 .gps img {float: left; width: 104px; height: 104px; margin-right: 24px;}
+main .section3 .gps .wrapper {display: inline-block; margin-top: -15px;}
+main .section3 .gps .wrapper h2 {height: 30px; line-height: 1.5; letter-spacing: -0.64px; text-align: left; font-size: 32px; color: #222222;}
+main .section3 .gps .wrapper p {height: 22px; margin-top: -10px; line-height: 2; letter-spacing: -0.5px; text-align: left; font-size: 21px; color: #999999;}
+main .section3 .bluetooth {margin-top: 24px;}
+main .section3 .bluetooth img {float: left; width: 104px; height: 104px; margin-right: 24px;}
+main .section3 .bluetooth .wrapper {display: inline-block; margin-top: -15px;}
+main .section3 .bluetooth .wrapper h2 {height: 30px; line-height: 1.5; letter-spacing: -0.64px; text-align: left; font-size: 32px; color: #222222;}
+main .section3 .bluetooth p {height: 22px; margin-top: -10px; line-height: 2; letter-spacing: -0.5px; text-align: left; font-size: 21px; color: #999999;}
+main .section3 .notice {margin-top: 24px;}
+main .section3 .notice img {float: left; width: 104px; height: 104px; margin-right: 24px;}
+main .section3 .notice .wrapper {display: inline-block; margin-top: -15px;}
+main .section3 .notice .wrapper h2 {height: 30px; line-height: 1.5; letter-spacing: -0.64px; text-align: left; font-size: 32px; color: #222222;}
+main .section3 .notice p {height: 22px; margin-top: -10px; line-height: 2; letter-spacing: -0.5px; text-align: left; font-size: 21px; color: #999999;}
+main .section3 .camera {margin-top: 24px;}
+main .section3 .camera img {float: left; width: 104px; height: 104px; margin-right: 24px;}
+main .section3 .camera .wrapper {display: inline-block; margin-top: -15px;}
+main .section3 .camera .wrapper h2 {height: 30px; line-height: 1.5; letter-spacing: -0.64px; text-align: left; font-size: 32px; color: #222222;}
+main .section3 .camera p {height: 22px; margin-top: -10px; line-height: 2; letter-spacing: -0.5px; text-align: left; font-size: 21px; color: #999999;}
+
+main .section4 {width: 720px; height: 137px; margin-top: 104px;}
+main .section4 button {width: 672px; height: 88px; margin-left: 25px; border-radius: 4px; line-height: 1.4; letter-spacing: -0.6px; text-align: center; background-color: #222222; font-size: 30px; font-weight: bold; font-stretch: normal; font-style: normal; color: #ffffff;}
