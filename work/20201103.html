@@ -22,7 +22,7 @@
 
 <div class="btn">
     <button class="hn">하남</button>
-    <button class="coex">코엑스몰</button>
+    <button class="mall">코엑스몰</button>
     <button class="gy">고양</button>
     <button class="wr">시티 위례</button>
     <button class="bc">시티부천</button>
@@ -33,10 +33,12 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-    // $('').on(function () {
-
-    // });
-    // 힌트 addclass, removeClass, $(this), siblings
+    $('.btn .hn,.mall,.gy,.wr,.bc,.mj').on('mouseover', function () {
+        $(this).addClass('.active').siblings().css('background', '#ffffff').css('color', '#222222');
+    });
+    $('.btn .hn,.mall,.gy,.wr,.bc,.mj').on('mouseleave', function () {
+        $(this).removeClass('.active').siblings().css('background', '#222222').css('color', '#ffffff');
+    });
 </script>
 </body>
 
