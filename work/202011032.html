@@ -1,0 +1,46 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BR 14th Work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/work/20201103.css">
+</head>
+
+<body>
+<div class="bar">
+    <a href="#"><img src="../images/work/XXX@2x.png" alt="XXX"></a>
+    자주 찾는 점포 설정
+</div>
+
+<div class="section">
+    <div class="title">자주 찾는 점포를 선택해주세요.</div>
+    <p>고객님께서 자주 찾는 점포는<br /><span>코엑스몰</span> 입니다.</p>
+</div>
+
+<div class="btn">
+    <button class="hn">하남</button>
+    <button class="mall">코엑스몰</button>
+    <button class="gy">고양</button>
+    <button class="wr">시티 위례</button>
+    <button class="bc">시티부천</button>
+    <button class="mj">시티 명지</button>
+</div>
+
+<button class="check">확인</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $('.btn button').on('click', function () {
+        $(this).addClass('active').siblings().removeClass('active');
+    });
+    // jquery는 하나하나 셀렉팅하지 않아도됩니다 .btn button만 셀렉팅해도 .btn 아래  button이 모두 셀렉트됩니다.
+    // addClass, removeClass 는 뒤에 Class가 붙어있으니 클래스명만 넣을수있으므로 점(.)을 뺸 클래스명만 넣습니다.
+    // 보람이 만든 마우스엔터, 마우스리브 효과가 더 어렵지만 모바일에서는 마우스가 없으니 핸드폰에서는 확인할 수 없는 효과입니다.
+    // 너무 복잡하게 생각하지말고 보람이 핸드폰으로 인터넷할때 어떻게 사용하는지 대입해보면 쉽습니다.
+</script>
+</body>
+
+</html>
