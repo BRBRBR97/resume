@@ -1,0 +1,45 @@
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BR 14th Work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../src/assets/css/reset.css">
+    <link rel="stylesheet" href="../css/work/20201103.css">
+</head>
+
+<body>
+<div class="bar">
+    <a href="#"><img src="../images/work/XXX@2x.png" alt="XXX"></a>
+    자주 찾는 점포 설정
+</div>
+
+<div class="section">
+    <div class="title">자주 찾는 점포를 선택해주세요.</div>
+    <p>고객님께서 자주 찾는 점포는<br /><span>코엑스몰</span> 입니다.</p>
+</div>
+
+<div class="btn">
+    <button class="hn">하남</button>
+    <button class="mall">코엑스몰</button>
+    <button class="gy">고양</button>
+    <button class="wr">시티 위례</button>
+    <button class="bc">시티부천</button>
+    <button class="mj">시티 명지</button>
+</div>
+
+<button class="check">확인</button>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $('.btn .hn,.mall,.gy,.wr,.bc,.mj').on('mouseover', function () {
+        $(this).addClass('.active').siblings().css('background', '#ffffff').css('color', '#222222');
+    });
+    $('.btn .hn,.mall,.gy,.wr,.bc,.mj').on('mouseleave', function () {
+        $(this).removeClass('.active').siblings().css('background', '#222222').css('color', '#ffffff');
+    });
+</script>
+</body>
+
+</html>
