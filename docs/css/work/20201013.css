@@ -1,0 +1,17 @@
+body{width: 100%; height: 100%; overflow: hidden; background-image: url('public/imagess/work/background3.png'), url('public/imagess/work/background2.png'), url('public/imagess/work/background1.png'); background-size: cover; background-repeat: no-repeat; position: absolute;}
+
+header nav {text-align: right;}
+header nav ul {margin-top: 220px;}
+header nav ul li {margin-right: 180px; margin-bottom: 10px; list-style: none;}
+header nav ul li a {letter-spacing: -.1mm; font-size: 23px; font-weight: bolder; color: rgb(119, 71, 85);}
+
+main {text-align: center;}
+main section article h2 {margin-top: 120px;}
+main section article h2 img {width: 900px;}
+main section article p {margin-top: 80px;}
+main section article p img {width: 1000px;}
+main section article .wrapper .sns {display: inline-block;}
+main section article .wrapper .sns img {width: 200px; margin-right: -100px; margin-left: 850px;}
+main section article .wrapper .logo {display: inline-block;}
+main section article .wrapper .logo img {width: 250px; margin-left: 580px;}
+main section article .text img{width: 900px; margin-top: 40px;}
