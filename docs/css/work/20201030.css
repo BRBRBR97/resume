@@ -1,0 +1,71 @@
+body {width: 100%;}
+
+
+.sel {height: 88px; padding: 20px 38px; line-height: 1.11; letter-spacing: -1.8px; text-align: center;}
+.sel .sel_box .sel_left {float: left; width: 35px;}
+.sel .sel_box .sel_left a img {width: 100%;}
+.sel .sel_box span {font-size: 36px; font-weight: bold;}
+.sel .sel_box .sel_right {float: right; width: 40px;}
+.sel .sel_box .sel_right a img {width: 100%;}
+
+
+main .section1 {height: 80px; text-align: center;}
+main .section1 .header {margin-top: -30px; margin-bottom: 20px;}
+main .section1 .header ul {padding: 26px 48px;}
+main .section1 .header ul li {display: inline-block; list-style: none;}
+main .section1 .header ul li a {margin-right: 75px; line-height: 1.86; letter-spacing: -0.56px; text-align: center; text-decoration: none; font-size: 28px; color: #666666;}
+main .section1 .header ul li a span {font-weight: bold; color: #000000;}
+main .section1 .map {width: 719.8px; height: 391px;}
+main .section1 .map img {width: 100%;}
+
+
+main .section2 {padding: 0 48px;}
+main .section2 .theme h2 {height: 33px; margin-top: 510px; line-height: 1.33; letter-spacing: -0.72px; font-size: 36px; font-weight: bold;}
+main .section2 .theme p {height: 27px; margin-top: 24px; line-height: 1.71; letter-spacing: -0.56px; font-size: 28px; color: #666666;}
+main .section2 .parking {margin-top: 47px;}
+main .section2 .parking .fir {display: block; text-align: center;}
+main .section2 .parking .fir ul {height: 161px;}
+main .section2 .parking .fir ul li {list-style: none;}
+main .section2 .parking .fir ul li img {float: left; height: 80px; margin-right: 71px; padding: 41px 41px 40px 40px;}
+main .section2 .parking .sec {display: inline-block; margin-top: 23px; text-align: center;}
+main .section2 .parking .sec ul li {float: left; height: 67px; margin-right: 110px; list-style: none; line-height: 1.43; letter-spacing: -0.56px; font-size: 28px; font-weight: bold;}
+main .section2 .parking .thi {display: block; margin-top: 24px; text-align: center;}
+main .section2 .parking .thi ul li {float: left; height: 58px; margin-right: 106px; margin-bottom: 80px; list-style: none; line-height: 1.5; letter-spacing: -0.48px; font-size: 24px; color: #666666;}
+main .section2 .parking .find {margin-bottom: 40px;}
+main .section2 .parking .find button {width: 624px; height: 139px; border-radius: 4px; border: 3px solid #999999; background-color: transparent; text-align: left;}
+main .section2 .parking .find button a {margin-left: 48px; line-height: 1.11; letter-spacing: -0.72px; text-align: left; text-decoration: none; font-size: 36px; color: #000000;}
+main .section2 .parking .find button a:after {content: ""; display: inline-block; float: right; background-image: url("public/imagess/work/find@2x.png"); background-size: 112px 112px; width: 112px; height: 112px; margin-right: 42px;}
+
+
+main .section3 {margin-top: 175px; padding: 0 48px;}
+main .section3 .title {height: 34px; line-height: 1.33; letter-spacing: -0.72px; font-size: 36px; font-weight: bold;}
+main .section3 .container {margin-top: 48px;}
+main .section3 .container_left {float: left; width: 284px;}
+main .section3 .container_left .four {width: 284px; height: 96px; margin-bottom: 8px; border-radius: 4px; border: 3px solid #e6e6e6; background: #ffffff; line-height: 1.6; letter-spacing: -0.6px; font-size: 30px; font-weight: bold;}
+main .section3 .container_left .four span {height: 65px; margin-left: 27px; padding: 15px 16px 16px 24px; border-radius: 4px; background-color: #f6f6f6; font-size: 36px; font-weight: bold; color: #76ba50;}
+main .section3 .container_left .four span:after {content: ""; display: inline-block; float: right; background-image: url('public/imagess/work/spare@2x.png'); background-size: 48px 48px; width: 48px; height: 48px;}
+main .section3 .container_left .three {width: 284px; height: 96px; margin-bottom: 8px; border-radius: 4px; border: 3px solid; background: #ffffff; line-height: 1.6; letter-spacing: -0.6px; font-size: 30px; font-weight: bold;}
+main .section3 .container_left .three span {height: 65px; margin-left: 27px; padding: 15px 16px 16px 24px; border-radius: 4px; background-color: #f6f6f6; font-size: 36px; font-weight: bold; color: #f49000;}
+main .section3 .container_left .three span:after {content: ""; display: inline-block; float: right; background-image: url('public/imagess/work/chaotic@2x.png'); background-size: 48px 48px; width: 48px; height: 48px;}
+main .section3 .container_left .two {width: 284px; height: 96px; margin-bottom: 8px; border-radius: 4px; border: 3px solid #e6e6e6; background: #ffffff; line-height: 1.6; letter-spacing: -0.6px; font-size: 30px; font-weight: bold;}
+main .section3 .container_left .two span {height: 65px; margin-left: 27px; padding: 15px 16px 16px 24px; border-radius: 4px; background-color: #f6f6f6; font-size: 36px; font-weight: bold; color: #c30e2e;}
+main .section3 .container_left .two span:after {content: ""; display: inline-block; float: right; background-image: url('public/imagess/work/full@2x.png'); background-size: 48px 48px; width: 48px; height: 48px;}
+main .section3 .container_left .one {width: 284px; height: 96px; margin-bottom: 8px; border-radius: 4px; border: 3px solid #e6e6e6; background: #ffffff; line-height: 1.6; letter-spacing: -0.6px; font-size: 30px; font-weight: bold;}
+main .section3 .container_left .one span {height: 65px; margin-left: 27px; padding: 15px 16px 16px 24px; border-radius: 4px; background-color: #f6f6f6; font-size: 36px; font-weight: bold; color: #76ba50;}
+main .section3 .container_left .one span:after {content: ""; display: inline-block; float: right; background-image: url('public/imagess/work/spare@2x.png'); background-size: 48px 48px; width: 48px; height: 48px;}
+main .section3 .container_left .b_one {width: 284px; height: 96px; margin-bottom: 8px; border-radius: 4px; border: 3px solid #e6e6e6; background: #ffffff; line-height: 1.6; letter-spacing: -0.6px; font-size: 30px; font-weight: bold;}
+main .section3 .container_left .b_one span {height: 65px; margin-left: 27px; padding: 15px 16px 16px 24px; border-radius: 4px; background-color: #f6f6f6; font-size: 36px; font-weight: bold; color: #76ba50;}
+main .section3 .container_left .b_one span:after {content: ""; display: inline-block; float: right; background-image: url('public/imagess/work/spare@2x.png'); background-size: 48px 48px; width: 48px; height: 48px;}
+main .section3 .container_left .b_two {width: 284px; height: 96px; margin-bottom: 8px; border-radius: 4px; border: 3px solid #e6e6e6; background: #ffffff; line-height: 1.6; letter-spacing: -0.6px; font-size: 30px; font-weight: bold;}
+main .section3 .container_left .b_two span {height: 65px; margin-left: 27px; padding: 15px 16px 16px 24px; border-radius: 4px; background-color: #f6f6f6;font-size: 36px; font-weight: bold; color: #76ba50;}
+main .section3 .container_left .b_two span:after {content: ""; display: inline-block; float: right; background-image: url('public/imagess/work/spare@2x.png'); background-size: 48px 48px; width: 48px; height: 48px;}
+main .section3 .container_right {width: 269px; height: 535px; margin-left: 355px; padding: 41px 0; border-radius: 4px; background: #f6f6f6; text-align: center;}
+main .section3 .container_right h2 {height: 27px; line-height: 1.71; letter-spacing: -0.56px; font-size: 28px; font-weight: bold;}
+main .section3 .container_right .close {margin-top: 39px;}
+main .section3 .container_right .close a {margin-top: 39px; line-height: 1.61; letter-spacing: -1.96px; text-decoration: none; font-size: 28px; color: #4389d1;}
+
+
+main .section4 {height: 412px; margin-top: 179px; padding-left: 48px;}
+main .section4 h2 {height: 35px; line-height: 1.33; letter-spacing: -0.72px; font-size: 36px; font-weight: bold;}
+main .section4 .enter {margin-top: 47px;}
+main .section4 .enter ul li {margin-bottom: 25px; line-height: 1.03; letter-spacing: -0.56px; font-size: 28px; color: #666666;}

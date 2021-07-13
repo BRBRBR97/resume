@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BR 3rd Work</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../src/assets/css/reset.css">
+    <link rel="stylesheet" href="../css/work/20201004.css">
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="nav_left">Termi</div>
+        <div class="nav_right">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#"><img src="../images/work/search.png" alt="search"></a></li>
+                <li><a href="#"><img src="../images/work/cart.png" alt="cart"></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--디자인을 보면 1170넓이로 가운데 정렬되어있습니다. -->
+<!--각섹션마다 .inner 클래스를 추가해서 1170이상에서도 중앙정렬되게 해줍니다.-->
+<!--section이라는 태그를 사용하고 클래스는 섹션내용에 맞게 넣어줍니다.-->
+<!--아래의 경우는 <section class="welcome">...</section> 됩니다.-->
+<section class="welcome">
+    <div class="inner"> <!--20201004 김종환 inner추가(다른 사람이 작업해논곳에 추가하거나 수정할경우 이런식( 날짜, 수정한사람, 수정한내용)으로 넣어줍니다.  -->
+        <div class="headline">
+            <h2>Welcome To Our Theme</h2>
+            <p>YOU CAN WORK ADAPTING YOUR DESIGN WITH EASE</p>
+            <button class="box1">GET STARTED</button>
+            <button class="box2">PURCHASE NOW</button>
+            <div class="btn">
+                <img src="../images/work/button.png" alt="button">
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="portfolio">
+    <div class="inner">
+        <div class="item">
+            <article>
+                <img src="../images/work/headset.png" alt="headset">
+                <h2>Fast Online Support</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
+                <button class="box">READ MORE</button>
+            </article>
+            <article>
+                <img src="../images/work/up.png" alt="up">
+                <h2>Best for Seo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
+                <button class="box">READ MORE</button>
+            </article>
+            <article>
+                <img src="../images/work/security.png" alt="security">
+                <h2>Super Security</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisic-<br />ing elit, sed do eiusmod tempor incididunt ut<br />labore et dolore magna aliqua.</p>
+                <button class="box">READ MORE</button>
+            </article>
+        </div>
+
+        <div class="por">
+            <div class="Portfolio">Our Portfolio</div>
+            <button class="box3">ALL</button>
+            <button class="box4">WEBSITES</button>
+            <button class="box5">BRANDING</button>
+            <button class="box6">GRAPHIC DESIGN</button>
+            <button class="box7">VIDEO</button>
+            <button class="box8">ONLINE MARKETING</button>
+        </div>
+    </div>
+</div>
+
+<section class="photograghy">
+<!--    table 태그는 실제 표같은 디자인같은 곳에서만 사용해야 합니다.(예: 시간표)-->
+<!--    div>ul>li 구조로 바꿔주세요.-->
+    <div class="inner">
+        <table>
+            <tr class="jh">
+                <td class="ico_camera"></td>
+                <td class="ico_camera active">
+                    <p class="category">Art / February 16, 2019</p>
+                    <h6>Desert<br />Travel Photograghyy</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+                <td class="ico_pen"></td>
+            </tr>
+
+            <tr class="jh">
+                <td class="ico_pen active">
+                    <p class="category">Photograghy / February 5, 2019</p>
+                    <h6>Forest<br />Production</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+                <td class="ico_camera"></td>
+                <td class="ico_viedo active">
+                    <p class="category">Casting Film / September 17, 2019</p>
+                    <h6>Worldwide<br />Campaign</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+            </tr>
+
+            <tr class="jh">
+                <td class="ico_camera"></td>
+                <td class="ico_video active">
+                    <p class="category">Photograghy / February 15, 2019</p>
+                    <h6>Landscape<br />Photograghy</h6>
+                    <p class="desc">Duis aute irure dolor in reprehenderit in voluptate<br />velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button>SEE MORE</button>
+                </td>
+                <td class="ico_pen"></td>
+            </tr>
+        </table>
+    </div>
+</section>
+<!--        참고용-->
+<!--        valign속석은 css에 넣어주세요. 퍼블리싱작업할땐 inline으로 css속성을 넣으면 안됩니다.-->
+<!--        허용하는경우는 퍼블리싱 작업후 넘겨줄때 애매하거나 다음작업자가 다른 클래스나 속성을 알아야 할때만 추가합니다.-->
+<!--        예 <button class="on">클릭하면 .on클래스 추가해주세요</button> 실제 사용자가 처음보는 화면에서는 on클래가 필요없지만 클릭했을때 추가된다는걸 알려주기 위해 임의로 디자인과다르게 추가 -->
+<!--        예 <button style="display: none;">클릭하면  사라지게 해주세요 </button> 개발자는 css 를 잘모르니 이렇게 넣으라고 알려줌 -->
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.js"></script>
+<script>
+    $('.nav_right ul li').on('mouseover', function () {
+        $(this).children('a').css('color', '#ff0000');
+    });
+    $('.nav_right ul li').on('mouseleave', function () {
+        $(this).children('a').css('color', '#ffffff');
+    });
+</script>
+
+</body>
+
+</html>

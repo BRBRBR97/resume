@@ -1,0 +1,14 @@
+body {width: 100%;}
+
+header {margin-bottom: 181px;}
+header .logo {margin-top: 72px;}
+header .logo a {height: 81px; margin-left: 480px;}
+
+section {text-align: center;}
+section .error img {height: 239px;}
+section .service {width: 636px;}
+section .service h2 {margin-top: 80px; letter-spacing: -2.4px; font-size: 48px; font-weight: 300;}
+section .service h2 span {font-weight: bold;}
+section .service p {margin-top: 47px; letter-spacing: -0.56px; font-size: 28px; font-weight: 300; color: #666666;}
+
+.btn input {height: 88px; margin-top: 268px; padding: 30px 272px; border-radius: 4px; background: #222222; letter-spacing: -0.6px; font-size: 30px; font-weight: bold; color: #ffffff;}\
